@@ -11,6 +11,11 @@
 		871430842A8490F9007C1023 /* SwiftyLabAzzam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871430792A8490F9007C1023 /* SwiftyLabAzzam.framework */; };
 		871430892A8490F9007C1023 /* SwiftyLabAzzamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871430882A8490F9007C1023 /* SwiftyLabAzzamTests.swift */; };
 		8714308A2A8490F9007C1023 /* SwiftyLabAzzam.h in Headers */ = {isa = PBXBuildFile; fileRef = 8714307C2A8490F9007C1023 /* SwiftyLabAzzam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8714309A2A849117007C1023 /* SwiftyLabExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871430992A849117007C1023 /* SwiftyLabExampleApp.swift */; };
+		8714309C2A849117007C1023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714309B2A849117007C1023 /* ContentView.swift */; };
+		8714309E2A84911A007C1023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8714309D2A84911A007C1023 /* Assets.xcassets */; };
+		871430A12A84911A007C1023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871430A02A84911A007C1023 /* Preview Assets.xcassets */; };
+		871430A62A849194007C1023 /* SwiftyLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871430A52A849194007C1023 /* SwiftyLab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,12 @@
 		8714307D2A8490F9007C1023 /* SwiftyLabAzzam.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLabAzzam.docc; sourceTree = "<group>"; };
 		871430832A8490F9007C1023 /* SwiftyLabAzzamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLabAzzamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430882A8490F9007C1023 /* SwiftyLabAzzamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLabAzzamTests.swift; sourceTree = "<group>"; };
+		871430972A849117007C1023 /* SwiftyLabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		871430992A849117007C1023 /* SwiftyLabExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLabExampleApp.swift; sourceTree = "<group>"; };
+		8714309B2A849117007C1023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8714309D2A84911A007C1023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		871430A02A84911A007C1023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		871430A52A849194007C1023 /* SwiftyLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		871430942A849117007C1023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +73,7 @@
 			children = (
 				8714307B2A8490F9007C1023 /* SwiftyLabAzzam */,
 				871430872A8490F9007C1023 /* SwiftyLabAzzamTests */,
+				871430982A849117007C1023 /* SwiftyLabExample */,
 				8714307A2A8490F9007C1023 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +83,7 @@
 			children = (
 				871430792A8490F9007C1023 /* SwiftyLabAzzam.framework */,
 				871430832A8490F9007C1023 /* SwiftyLabAzzamTests.xctest */,
+				871430972A849117007C1023 /* SwiftyLabExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +93,7 @@
 			children = (
 				8714307C2A8490F9007C1023 /* SwiftyLabAzzam.h */,
 				8714307D2A8490F9007C1023 /* SwiftyLabAzzam.docc */,
+				871430A52A849194007C1023 /* SwiftyLab.swift */,
 			);
 			path = SwiftyLabAzzam;
 			sourceTree = "<group>";
@@ -83,6 +104,25 @@
 				871430882A8490F9007C1023 /* SwiftyLabAzzamTests.swift */,
 			);
 			path = SwiftyLabAzzamTests;
+			sourceTree = "<group>";
+		};
+		871430982A849117007C1023 /* SwiftyLabExample */ = {
+			isa = PBXGroup;
+			children = (
+				871430992A849117007C1023 /* SwiftyLabExampleApp.swift */,
+				8714309B2A849117007C1023 /* ContentView.swift */,
+				8714309D2A84911A007C1023 /* Assets.xcassets */,
+				8714309F2A84911A007C1023 /* Preview Content */,
+			);
+			path = SwiftyLabExample;
+			sourceTree = "<group>";
+		};
+		8714309F2A84911A007C1023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				871430A02A84911A007C1023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +175,23 @@
 			productReference = 871430832A8490F9007C1023 /* SwiftyLabAzzamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		871430962A849117007C1023 /* SwiftyLabExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871430A22A84911A007C1023 /* Build configuration list for PBXNativeTarget "SwiftyLabExample" */;
+			buildPhases = (
+				871430932A849117007C1023 /* Sources */,
+				871430942A849117007C1023 /* Frameworks */,
+				871430952A849117007C1023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLabExample;
+			productName = SwiftyLabExample;
+			productReference = 871430972A849117007C1023 /* SwiftyLabExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +206,9 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					871430822A8490F9007C1023 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					871430962A849117007C1023 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -168,6 +228,7 @@
 			targets = (
 				871430782A8490F9007C1023 /* SwiftyLabAzzam */,
 				871430822A8490F9007C1023 /* SwiftyLabAzzamTests */,
+				871430962A849117007C1023 /* SwiftyLabExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +248,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		871430952A849117007C1023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871430A12A84911A007C1023 /* Preview Assets.xcassets in Resources */,
+				8714309E2A84911A007C1023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8714307E2A8490F9007C1023 /* SwiftyLabAzzam.docc in Sources */,
+				871430A62A849194007C1023 /* SwiftyLab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				871430892A8490F9007C1023 /* SwiftyLabAzzamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871430932A849117007C1023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8714309C2A849117007C1023 /* ContentView.swift in Sources */,
+				8714309A2A849117007C1023 /* SwiftyLabExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +485,7 @@
 		871430912A8490F9007C1023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -420,6 +501,7 @@
 		871430922A8490F9007C1023 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -427,6 +509,62 @@
 				PRODUCT_BUNDLE_IDENTIFIER = azzam.SwiftyLabAzzamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		871430A32A84911A007C1023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftyLabExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azzam.SwiftyLabExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		871430A42A84911A007C1023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftyLabExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azzam.SwiftyLabExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +596,15 @@
 			buildConfigurations = (
 				871430912A8490F9007C1023 /* Debug */,
 				871430922A8490F9007C1023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871430A22A84911A007C1023 /* Build configuration list for PBXNativeTarget "SwiftyLabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871430A32A84911A007C1023 /* Debug */,
+				871430A42A84911A007C1023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
